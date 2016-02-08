@@ -370,6 +370,9 @@
                                 <state key="normal" title="Confirmar">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="confirmar:" destination="DyT-bJ-kLa" eventType="touchUpInside" id="EgB-3n-K0P"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de queso:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnt-t0-QgG">
                                 <rect key="frame" x="174" y="332" width="114" height="21"/>

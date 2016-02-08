@@ -56,8 +56,8 @@ class primeraVista: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let sigVista = segue.destinationViewController as! vistaResultados
-        sigVista.resultadoTamanio = "jsjsjsjss"
+        let sigVista = segue.destinationViewController as! segundaVista
+        sigVista.tamanio = seleccionado
     }
     
     

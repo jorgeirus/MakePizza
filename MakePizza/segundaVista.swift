@@ -12,6 +12,8 @@ class segundaVista: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     
     @IBOutlet weak var pickerView: UIPickerView!
     var tipoMasa = []
+    var tamanio = ""
+    var seleccionado = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +37,17 @@ class segundaVista: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     
     internal func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
+    }
+    
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        seleccionado = tipoMasa[row] as! String
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let sigVista = segue.destinationViewController as! terceraVista
+        sigVista.masa = seleccionado
+        sigVista.tamanio = tamanio
+        
+        
     }
 
     /*
