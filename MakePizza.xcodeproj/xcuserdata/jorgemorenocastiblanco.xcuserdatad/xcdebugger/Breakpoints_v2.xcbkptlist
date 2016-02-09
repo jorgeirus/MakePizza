@@ -35,5 +35,99 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MakePizza/Ingredientes.swift"
+            timestampString = "476667391.867862"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MakePizza/vistaResultados.swift"
+            timestampString = "476668018.797755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "vistaResultados"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakePizza.vistaResultados.ingredientes.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "MakePizza"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgemorenocastiblanco/Documents/Mi%20aplicacion/MakePizza/MakePizza/vistaResultados.swift"
+                  timestampString = "476667944.435723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakePizza.vistaResultados.ingredientes.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "MakePizza"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgemorenocastiblanco/Documents/Mi%20aplicacion/MakePizza/MakePizza/vistaResultados.swift"
+                  timestampString = "476667944.435835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakePizza.vistaResultados.init (MakePizza.vistaResultados.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; MakePizza.vistaResultados"
+                  moduleName = "MakePizza"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgemorenocastiblanco/Documents/Mi%20aplicacion/MakePizza/MakePizza/vistaResultados.swift"
+                  timestampString = "476667944.435935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MakePizza.vistaResultados.init (MakePizza.vistaResultados.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MakePizza.vistaResultados&gt;"
+                  moduleName = "MakePizza"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jorgemorenocastiblanco/Documents/Mi%20aplicacion/MakePizza/MakePizza/vistaResultados.swift"
+                  timestampString = "476667944.436043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

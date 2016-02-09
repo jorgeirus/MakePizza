@@ -50,7 +50,7 @@ class terceraVista: UIViewController, UIPickerViewDataSource, UIPickerViewDelega
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let sigVista = segue.destinationViewController as! vistaResultados
+        let sigVista = segue.destinationViewController as! Ingredientes
         sigVista.resultadoQueso = seleccionado
         sigVista.resultadoTamanio = tamanio
         sigVista.resultadoMasa = masa

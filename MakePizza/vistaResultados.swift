@@ -14,15 +14,18 @@ class vistaResultados: UIViewController {
     @IBOutlet weak var tamanio: UILabel!
     @IBOutlet weak var masa: UILabel!
     @IBOutlet weak var queso: UILabel!
+    @IBOutlet weak var ingredientes: UILabel!
     
     var resultadoTamanio = ""
     var resultadoMasa = ""
     var resultadoQueso = ""
+    var resultadoIngredientes = [String]()
     
     override func viewWillAppear(animated: Bool) {
         tamanio.text = resultadoTamanio
         masa.text = resultadoMasa
         queso.text = resultadoQueso
+        ingredientes.text = mostrarIngredientes()
     }
 
 
@@ -62,6 +65,21 @@ class vistaResultados: UIViewController {
     
     @IBAction func confirmar(sender: AnyObject) {
         mostrarAlerta()
+    }
+    
+    func mostrarIngredientes()->String{
+        var acumIngre = ""
+        var contador = 0;
+        for i in resultadoIngredientes{
+            if(contador<4){
+                acumIngre+="\(i)\n"
+            }else{
+                acumIngre+="\(i)"
+            }
+            contador++
+        }
+        
+        return acumIngre
     }
 
     /*

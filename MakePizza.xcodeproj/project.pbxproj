@@ -16,6 +16,7 @@
 		3A57B5F61C5EC22B00A00A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A57B5F51C5EC22B00A00A22 /* Assets.xcassets */; };
 		3A57B5F91C5EC22B00A00A22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A57B5F71C5EC22B00A00A22 /* LaunchScreen.storyboard */; };
 		3A57B6011C5ED70D00A00A22 /* primeraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A57B6001C5ED70D00A00A22 /* primeraVista.swift */; };
+		3AAA75291C693C0100A740B5 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA75281C693C0100A740B5 /* Ingredientes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3A57B5F81C5EC22B00A00A22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A57B5FA1C5EC22B00A00A22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A57B6001C5ED70D00A00A22 /* primeraVista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = primeraVista.swift; sourceTree = "<group>"; };
+		3AAA75281C693C0100A740B5 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3A3D69051C646D0C00872F4E /* terceraVista.swift */,
 				3A3A6E841C682828008EECF1 /* TableViewController.swift */,
 				3A3A6E861C686D59008EECF1 /* vistaResultados.swift */,
+				3AAA75281C693C0100A740B5 /* Ingredientes.swift */,
 			);
 			path = MakePizza;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				3A3A6E851C682828008EECF1 /* TableViewController.swift in Sources */,
 				3A57B5EF1C5EC22B00A00A22 /* AppDelegate.swift in Sources */,
 				3A3D69061C646D0C00872F4E /* terceraVista.swift in Sources */,
+				3AAA75291C693C0100A740B5 /* Ingredientes.swift in Sources */,
 				3A3D69041C64679300872F4E /* segundaVista.swift in Sources */,
 				3A3A6E871C686D59008EECF1 /* vistaResultados.swift in Sources */,
 			);
